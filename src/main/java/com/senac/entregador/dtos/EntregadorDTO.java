@@ -6,16 +6,16 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 public class EntregadorDTO {
-    private Integer entregador_id;
+    private int entregador_id;
     private String entregador_nome;
     private String entregador_telefone;
     private String entregador_identificacao;
-    private Integer entregador_status;
+    private int entregador_status;
 
     public EntregadorDTO() {}
 
-    public EntregadorDTO(Integer entregador_id, String entregador_nome, String entregador_telefone, String entregador_identificacao,
-                     Integer entregador_status) {
+    public EntregadorDTO(int entregador_id, String entregador_nome, String entregador_telefone, String entregador_identificacao,
+                     int entregador_status) {
         this.entregador_id = entregador_id;
         this.entregador_nome = entregador_nome;
         this.entregador_telefone = entregador_telefone;
