@@ -24,7 +24,7 @@ public class EntregadorDTO {
 
     }
 
-    public Integer getEntregador_id() {
+    public int getEntregador_id() {
         return entregador_id;
     }
 
@@ -56,7 +56,7 @@ public class EntregadorDTO {
         this.entregador_identificacao = entregador_identificacao;
     }
 
-    public Integer getEntregador_status() {
+    public int getEntregador_status() {
         return entregador_status;
     }
 
